@@ -614,7 +614,7 @@
       const alamat = document.getElementById("alamat").value;
       const pesanan = document.getElementById("pesanan").value;
       const nomorWA = "6282313124712";
-      const pesan = `🍜 *PESANAN DIMSUM RN NABIRE* 🍜\n\n👤 Nama: ${nama}\n📱 No. HP: ${telp}\n📍 Alamat: ${alamat}\n\n🛒 Detail Pesanan:\n${pesanan}\n\nTerima kasih.`;
+      const pesan = ` *PESANAN DIMSUM RN NABIRE* \n\n Nama: ${nama}\n No. HP: ${telp}\n Alamat: ${alamat}\n\n Detail Pesanan:\n${pesanan}\n\nTerima kasih.`;
       window.location.href = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
     }
   </script>
