@@ -434,7 +434,8 @@ ul { list-style: none; }
   background: 
     linear-gradient(135deg, #3d1a10 0%, #6b2d1e 50%, #3d1a10 100%);
   position: relative;
-  overflow: hidden;
+  overflow: clip;
+  overflow-clip-margin: 0;
 }
 .paket::before {
   content: '';
