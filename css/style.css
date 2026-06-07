@@ -100,7 +100,27 @@ ul { list-style: none; }
   border-color: var(--white);
 }
 
-.btn--full { width: 100%; text-align: center; }
+.btn--full {
+  width: 100%;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.kontak__form button[type="submit"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  display: block;
+  margin: 0 0 0 6px;
+  width: calc(100% - 6px);
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
 
 .navbar {
   position: fixed;
@@ -457,8 +477,8 @@ ul { list-style: none; }
 }
 
 .paket__card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(212,160,23,0.25);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(212,160,23,0.5);
   border-radius: var(--radius);
   padding: 2.2rem 1.8rem;
   text-align: center;
@@ -466,16 +486,19 @@ ul { list-style: none; }
   transition: var(--transition);
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
 }
 .paket__card:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.18);
   transform: translateY(-4px);
-  border-color: rgba(212,160,23,0.5);
+  border-color: rgba(212,160,23,0.8);
 }
 .paket__card--featured {
-  background: rgba(212,160,23,0.15);
+  background: rgba(212,160,23,0.25);
   border-color: var(--gold);
+  border-width: 2px;
   transform: scale(1.03);
+  box-shadow: 0 8px 32px rgba(212,160,23,0.2);
 }
 .paket__card--featured:hover { transform: scale(1.03) translateY(-4px); }
 
@@ -771,6 +794,15 @@ ul { list-style: none; }
 
   
   .kontak__form-wrap { padding: 1.5rem; }
+  .kontak__form-wrap .btn--full {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
 
   
   .about__badge { right: 5px; }
