@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dapur RN Nabire – Dimsum Spesial</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/banner/logo-dapur_RN.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__brand">
+        
+        <img src="assets/banner/logo-dapur_RN.png" alt="Logo Dapur RN" class="navbar__logo" />
+        <span class="navbar__title">Dapur <em>RN</em> Nabire</span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="navMenu">
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#paket">Paket</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero" id="beranda">
+    <div class="hero__lantern hero__lantern--left">🏮</div>
+    <div class="hero__lantern hero__lantern--right">🏮</div>
+    <div class="container hero__content">
+      <p class="hero__sub">✦ Dimsum Segar Setiap Hari ✦</p>
+      <h1 class="hero__title">Dapur <span>RN</span><br />Nabire</h1>
+      <p class="hero__desc">Nikmati cita rasa dimsum autentik yang dibuat dengan bahan pilihan segar, diracik oleh
+        tangan terampil untuk menghadirkan kelezatan terbaik di kota Nabire.</p>
+      <div class="hero__cta">
+        <a href="#menu" class="btn btn--primary">Lihat Menu</a>
+        <a href="#kontak" class="btn btn--outline">Pesan Sekarang</a>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fdf6ec" />
+      </svg>
+    </div>
+  </section>
+
+  
+  <section class="about" id="tentang">
+    <div class="container about__inner">
+      <div class="about__img-wrap">
+        
+        <img src="assets/banner/banner_mentai.jpg" alt="Dapur RN Nabire" class="about__img" />
+        <div class="about__badge">
+          <span class="about__badge-num">5+</span>
+          <span>Tahun Pengalaman</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section-label">Tentang Kami</p>
+        <h2 class="section-title">Dimsum Rumahan,<br />Rasa Bintang Lima</h2>
+        <p>Dapur RN Nabire hadir dengan semangat menyajikan dimsum berkualitas tinggi dengan harga yang terjangkau.
+          Setiap gigitan mencerminkan kesegaran bahan dan keahlian memasak yang telah kami asah selama bertahun-tahun.
+        </p>
+        <p>Kami menggunakan bahan-bahan segar pilihan tanpa MSG berlebihan, sehingga cocok dinikmati oleh seluruh
+          keluarga—dari anak-anak hingga orang dewasa.</p>
+        <ul class="about__list">
+          <li>✔ Bahan Segar Pilihan</li>
+          <li>✔ Dibuat Fresh Setiap Hari</li>
+          <li>✔ Tersedia Frozen & Ready-to-Eat</li>
+          <li>✔ Melayani Pesanan Acara & Catering</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="menu" id="menu">
+    <div class="container">
+      <p class="section-label center">Menu Kami</p>
+      <h2 class="section-title center">Pilihan Dimsum Spesial</h2>
+      <p class="section-desc center">Tersedia dalam berbagai ukuran: <strong>Medium (6
+          pcs)</strong>, dan <strong>Large (8 pcs)</strong></p>
+
+      <div class="slider__wrapper">
+        <div class="menu__grid slider__track" id="menuTrack">
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              
+              <img src="assets/image/D-Mentai.png" alt="Dimsum Ayam" />
+              <span class="menu__badge">Best Seller</span>
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mentai</h3>
+              <p>Dimsum ayam pilihan dengan saus mentai creamy yang gurih dan sedikit smoky, bikin setiap gigitan makin nikmat.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 35.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 45.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mix.png" alt="Dimsum Udang" />
+              <span class="menu__badge menu__badge--new">Favorit</span>
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mix Mentai & TarTar</h3>
+              <p>Perpaduan dua saus favorit dalam satu porsi, mentai creamy dan tartar segar yang menghadirkan sensasi rasa unik.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 35.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 45.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-original.png" alt="Dimsum Sapi" />
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Original</h3>
+              <p>Dimsum ayam premium dengan cita rasa gurih klasik, lembut, juicy, dan cocok dinikmati oleh semua kalangan.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 30.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 40.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mercon.png" alt="Dimsum Ikan" />
+              <span class="menu__badge menu__badge--spicy">🌶 Pedas</span>
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mercon</h3>
+              <p>Dimsum ayam dengan sambal mercon pedas nampol, cocok untuk pecinta makanan pedas yang bikin ketagihan.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 40.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 50.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mentai-C.png" alt="Dimsum Jamur" />
+              <span class="menu__badge">Best Seller</span>
+
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mentai Cheddar</h3>
+              <p>Dimsum mentai dengan topping keju cheddar yang lumer dan gurih, menghasilkan kombinasi rasa yang lebih kaya.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 40.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 50.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mentai-M.png" alt="Dimsum Keju" />
+              <span class="menu__badge">Best Seller</span>
+
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mentai Mozzarella</h3>
+              <p>Dimsum premium dengan saus mentai dan lelehan mozzarella yang creamy, lembut, dan memanjakan lidah.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 50.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 60.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mix-M&M.png" alt="Dimsum Keju" />
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mix Mozza & Mercon</h3>
+              <p>Perpaduan sempurna antara lelehan mozzarella yang creamy dan sambal mercon yang pedas menggugah selera.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 50.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 60.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-TarTar.png" alt="Dimsum Keju" />
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum TarTar</h3>
+              <p>Dimsum ayam dengan saus tartar creamy dan segar, memberikan cita rasa ringan namun tetap lezat.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 35.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 45.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/D-Mentai-Q.png" alt="Dimsum Keju" />
+              <span class="menu__badge">Best Seller</span>
+
+            </div>
+            <div class="menu__body">
+              <h3>Dimsum Mentai Quick Melt</h3>
+              <p>Dimsum mentai dengan topping quick melt yang lumer sempurna, menghadirkan sensasi gurih dan creamy di setiap gigitan.</p>
+              <div class="menu__sizes">
+
+                <div class="size-row">
+                  <span>Medium (6 pcs)</span>
+                  <span class="price">Rp. 40.000</span>
+                </div>
+                <div class="size-row">
+                  <span>Large (8 pcs)</span>
+                  <span class="price">Rp. 50.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="menu__card">
+            <div class="menu__img-wrap">
+              <img src="assets/image/chili oil.png" alt="Dimsum Keju" />
+
+            </div>
+            <div class="menu__body">
+              <h3>Chili Oil</h3>
+              <p>Sambal chili oil khas Dimsum RN Nabire dengan aroma bawang dan cabai pilihan, pedas gurih dan cocok dipadukan dengan semua varian dimsum.</p>
+              <div class="menu__sizes">
+                <div class="size-row">
+                  <span class="price">Rp. 3.000</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider__dots" id="menuDots"></div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="paket" id="paket">
+    <div class="container">
+      <p class="section-label center">Hemat Lebih Banyak</p>
+      <h2 class="section-title center">Paket Bundling</h2>
+      <div class="slider__wrapper">
+        <div class="paket__grid slider__track" id="paketTrack">
+
+          <div class="paket__card">
+            <div class="paket__icon">🥢</div>
+            <h3>Paket Harian</h3>
+            <p class="paket__desc">3 pilihan dimsum (masing-masing Medium)</p>
+            <ul>
+              <li>18 pcs total dimsum</li>
+              <li>1 porsi saus original</li>
+              <li>1 porsi saus sambal</li>
+            </ul>
+            <div class="paket__price">Rp 65.000</div>
+            <a href="#kontak" class="btn btn--primary">Pesan</a>
+          </div>
+
+          <div class="paket__card paket__card--featured">
+            <div class="paket__ribbon">Terlaris</div>
+            <div class="paket__icon">🎋</div>
+            <h3>Paket Keluarga</h3>
+            <p class="paket__desc">5 pilihan dimsum (masing-masing Large)</p>
+            <ul>
+              <li>40 pcs total dimsum</li>
+              <li>2 porsi saus original</li>
+              <li>2 porsi saus sambal</li>
+              <li>Minuman teh hangat gratis</li>
+            </ul>
+            <div class="paket__price">Rp 145.000</div>
+            <a href="#kontak" class="btn btn--primary">Pesan</a>
+          </div>
+
+          <div class="paket__card">
+            <div class="paket__icon">🫕</div>
+            <h3>Paket Catering</h3>
+            <p class="paket__desc">Untuk acara & gathering (min. 50 porsi)</p>
+            <ul>
+              <li>Bebas pilih varian</li>
+              <li>Gratis ongkos kirim area Nabire</li>
+              <li>Tersedia dekorasi meja</li>
+            </ul>
+            <div class="paket__price">Hubungi Kami</div>
+            <a href="#kontak" class="btn btn--primary">Konsultasi</a>
+          </div>
+
+        </div>
+        <div class="slider__dots" id="paketDots"></div>
+      </div>
+    </div>
+  </section>
+  <section class="testi">
+    <div class="container">
+      <p class="section-label center">Kata Mereka</p>
+      <h2 class="section-title center">Pelanggan Setia Kami</h2>
+      <div class="slider__wrapper">
+        <div class="testi__grid slider__track" id="testiTrack">
+          <div class="testi__card">
+            <div class="testi__stars">★★★★★</div>
+            <p>"Dimsum ayamnya enak banget, beda dari yang lain! Sudah jadi langganan keluarga kami setiap minggu."</p>
+            <div class="testi__author">
+              <div class="testi__avatar">SR</div>
+              <div>
+                <strong>Siti Rahayu</strong>
+                <span>Pelanggan Setia</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi__card">
+            <div class="testi__stars">★★★★★</div>
+            <p>"Pesan untuk arisan 50 orang, datang tepat waktu dan rasanya konsisten. Pasti pesan lagi!"</p>
+            <div class="testi__author">
+              <div class="testi__avatar">BW</div>
+              <div>
+                <strong>Budi Wibowo</strong>
+                <span>Pelanggan Catering</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi__card">
+            <div class="testi__stars">★★★★★</div>
+            <p>"Dimsum kejunya juara! Anak-anak suka banget, harga pun terjangkau. Recommended!"</p>
+            <div class="testi__author">
+              <div class="testi__avatar">DM</div>
+              <div>
+                <strong>Dewi Melati</strong>
+                <span>Pelanggan Tetap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__dots" id="testiDots"></div>
+      </div>
+    </div>
+  </section>
+  <section class="kontak" id="kontak">
+    <div class="container kontak__inner">
+      <div class="kontak__info">
+        <p class="section-label">Hubungi Kami</p>
+        <h2 class="section-title">Pesan Sekarang,<br />Siap Melayani!</h2>
+        <p>Kami melayani pemesanan setiap hari mulai pukul 09.00 – habis. Tersedia layanan antar untuk area Nabire kota.
+        </p>
+        <div class="kontak__list">
+          <div class="kontak__item">
+            <span class="kontak__icon">📍</span>
+            <div>
+              <strong>Lokasi</strong>
+              <p>kotalama damri, Jl. Bhayangkara, nabire-papteng</p>
+            </div>
+          </div>
+          <div class="kontak__item">
+            <span class="kontak__icon">📱</span>
+            <div>
+              <strong>WhatsApp / Telp</strong>
+              <a href="https://wa.me/6282313124712?text=Halo%20Dimsum%20RN%20Nabire,%20saya%20ingin%20pesan%20dimsum."
+                target="_blank">
+                Pesan via WhatsApp
+              </a> </div>
+          </div>
+          <div class="kontak__item">
+            <span class="kontak__icon">🕐</span>
+            <div>
+              <strong>Jam Operasional</strong>
+              <p>Setiap Hari: 09.00 – habis</p>
+            </div>
+          </div>
+          <div class="kontak__item">
+            <span class="kontak__icon">
+              <i class="bi bi-instagram"></i>
+            </span>
+            <div>
+              <strong>Instagram</strong>
+              <p>
+                <a href="https://www.instagram.com/dimsum_rn.nabire/" target="_blank" rel="noopener noreferrer">
+                  @dimsum_rn.nabire
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kontak__form-wrap">
+        <form class="kontak__form" onsubmit="handleOrder(event)">
+          <h3>Form Pemesanan</h3>
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" placeholder="Masukkan nama kamu" required />
+          </div>
+          <div class="form-group">
+            <label for="telp">No. HP / WhatsApp</label>
+            <input type="tel" id="telp" placeholder="08xx-xxxx-xxxx" required />
+          </div>
+          <div class="form-group">
+            <label for="alamat">Alamat Pengiriman</label>
+            <input type="text" id="alamat" placeholder="Masukkan alamat lengkap" />
+          </div>
+          <div class="form-group">
+            <label for="pesanan">Detail Pesanan</label>
+            <textarea id="pesanan" rows="4"
+              placeholder="Contoh: 2 porsi Dimsum Ayam Medium, 1 porsi Dimsum Udang Large..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Kirim Pesanan via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <footer class="footer">    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/banner/logo-dapur_RN.png" alt="Logo Dapur RN" class="footer__logo" />
+        <span>Dapur <em>RN</em> Nabire</span>
+      </div>
+      <p class="footer__tagline">Dimsum Segar, Rasa Istimewa, Harga Bersahabat</p>
+      <div class="footer__links">
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#paket">Paket</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <p class="footer__copy">© 2026 Dapur RN Nabire. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  
+  
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    toggle.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    document.querySelectorAll('.navbar__menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+
+    const sections = document.querySelectorAll('section[id]');
+    const navbar = document.querySelector('.navbar');
+    const backToTop = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.pageYOffset;
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 80;
+        const sectionHeight = section.offsetHeight;
+        const id = section.getAttribute('id');
+        const link = document.querySelector(`.navbar__menu a[href="#${id}"]`);
+        if (link) {
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            document.querySelectorAll('.navbar__menu a').forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+          }
+        }
+      });
+      navbar.classList.toggle('scrolled', scrollY > 20);
+      backToTop.classList.toggle('visible', scrollY > 400);
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    function initSlider(trackId, dotsId) {
+      const track = document.getElementById(trackId);
+      const dotsContainer = document.getElementById(dotsId);
+      if (!track || !dotsContainer) return;
+      function setup() {
+        const isMobile = window.innerWidth <= 600;
+        const cards = track.querySelectorAll(':scope > *');
+        if (!isMobile || cards.length === 0) {
+          dotsContainer.innerHTML = '';
+          track.style.transform = '';
+          return;
+        }
+        dotsContainer.innerHTML = '';
+        cards.forEach((_, i) => {
+          const dot = document.createElement('button');
+          dot.className = 'slider__dot' + (i === 0 ? ' active' : '');
+          dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+          dot.addEventListener('click', () => goTo(i));
+          dotsContainer.appendChild(dot);
+        });
+        let current = 0;
+        let startX = 0;
+        let isDragging = false;
+        function goTo(index) {
+          current = Math.max(0, Math.min(index, cards.length - 1));
+          const cardWidth = track.parentElement.offsetWidth;
+          track.style.transform = `translateX(-${current * cardWidth}px)`;
+          dotsContainer.querySelectorAll('.slider__dot').forEach((d, i) => {
+            d.classList.toggle('active', i === current);
+          });
+        }
+        track.addEventListener('touchstart', e => {
+          startX = e.touches[0].clientX;
+          isDragging = true;
+        }, { passive: true });
+        track.addEventListener('touchend', e => {
+          if (!isDragging) return;
+          const diff = startX - e.changedTouches[0].clientX;
+          if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
+          isDragging = false;
+        });
+        goTo(0);
+      }
+      setup();
+      window.addEventListener('resize', setup);
+    }
+
+    initSlider('menuTrack', 'menuDots');
+    initSlider('paketTrack', 'paketDots');
+    initSlider('testiTrack', 'testiDots');
+
+    function handleOrder(event) {
+      event.preventDefault();
+      const nama = document.getElementById("nama").value;
+      const telp = document.getElementById("telp").value;
+      const alamat = document.getElementById("alamat").value;
+      const pesanan = document.getElementById("pesanan").value;
+      const nomorWA = "6282313124712";
+      const pesan = `🍜 *PESANAN DIMSUM RN NABIRE* 🍜\n\n👤 Nama: ${nama}\n📱 No. HP: ${telp}\n📍 Alamat: ${alamat}\n\n🛒 Detail Pesanan:\n${pesanan}\n\nTerima kasih.`;
+      window.location.href = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
+    }
+  </script>
+</body>
+
+</html>
